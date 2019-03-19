@@ -3,6 +3,20 @@ Android热修复框架
 
 # 使用实例
 
+## app build.gradle
+
+```
+repositories {
+    jcenter()
+    ...
+    maven { url "https://github.com/johanmans/tryfix/raw/master" }
+}
+dependencies {
+    ...
+    compile('com.johan:tryfix:1.0')
+}
+```
+
 ## Application
 
 ```
